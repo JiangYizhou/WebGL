@@ -429,6 +429,10 @@ goog.scope(function() {
             try {
                 // If proceeding with the next test, prepare it.
                 var fullTestName = state.currentTest.fullName();
+                while(fullTestName != "completeness.attachment_combinations.none_none_rbo_tex"){
+                    state.next();
+                    fullTestName = state.currentTest.fullName();
+                }
                 var inited = true;
                 if (tcuTestCase.lastResult == tcuTestCase.IterateResult.STOP) {
                     // Update current test name
