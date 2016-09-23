@@ -1,3 +1,4 @@
+test.html
 compressed-tex-image.html
 copy-texture-image.html
 copy-texture-image-luma-format.html
